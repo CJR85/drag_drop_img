@@ -18,9 +18,17 @@
   <body>
     <div class="hero">
       <label for="input-file" id="drop-area">
-        <input type="file" accept="image/*" id="input-file" />
+        <input type="file" accept="image/*" id="input-file" hidden />
+        <div id="img-view">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p>
+            Drag and drop or click here <br />
+            to upload image
+          </p>
+          <span>Upload any images from desktop</span>
+        </div>
       </label>
     </div>
+    <script src="script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
